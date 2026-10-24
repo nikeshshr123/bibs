@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7efe7">
+  <meta name="description" content="A little question, a little magic, and something written in the stars. Just for you.">
+  <title>A little question for you ♡</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header><a class="wordmark" href="./" aria-label="Start again">you & me<span>♡</span></a><span class="header-note">a little courage. a lot of butterflies.</span><span class="edition">JUST FOR YOU</span></header>
+  <main>
+    <section id="invite" class="screen invitation" aria-labelledby="invite-title">
+      <div class="intro">
+        <p class="eyebrow"><span></span> THERE’S SOMETHING I WANTED TO ASK</p>
+        <h1 id="invite-title">My favorite plan?<br><em>You.</em></h1>
+        <p class="lede">Some moments deserve more than a text.<br>So I made you this little corner of the internet.</p>
+        <p class="handwritten">One question. A whole lot of butterflies.</p>
+        <div class="tiny-heart" aria-hidden="true">♡</div>
+      </div>
+      <div class="letter-scene">
+        <div class="orbit-note" aria-hidden="true">a special delivery ↘</div>
+        <article class="letter">
+          <div class="letter-top"><span>TO MY FAVORITE MAYBE</span><span aria-hidden="true">✧</span></div>
+          <p class="salutation">Hey, you.</p>
+          <h2>Will you go on<br>a date with me?</h2>
+          <p>Just us, something delicious,<br>and a reason to lose track of time.</p>
+          <div id="choice-area" class="choice-area">
+            <button id="yes" class="button primary" type="button">Yes, I’d love to <span aria-hidden="true">♡</span></button>
+            <button id="no" class="button secondary" type="button">No</button>
+          </div>
+          <p id="no-hint" class="hint" aria-live="polite">Psst… one of these buttons is a little shy.</p>
+          <span class="letter-signature">with a hopeful heart, me</span>
+        </article>
+        <div class="envelope" aria-hidden="true"><div class="envelope-flap"></div><span class="seal">♡</span></div>
+      </div>
+    </section>
+
+    <section id="accepted" class="screen centered" hidden aria-labelledby="accepted-title">
+      <div class="celebration-mark" aria-hidden="true">♡</div>
+      <p class="eyebrow">WELL, YOU JUST MADE MY DAY</p>
+      <h1 id="accepted-title" tabindex="-1">It’s a <em>date.</em></h1>
+      <p class="lede">Suddenly, I have a new favorite word: yes.<br>I can’t wait to make a memory with you.</p>
+      <div class="date-ticket"><span>ADMIT TWO</span><strong>You + me</strong><span>A LITTLE BEGINNING ♡</span></div>
+      <button id="to-game" class="button primary" type="button">One more little surprise <span aria-hidden="true">→</span></button>
+      <p class="hint">I think the universe might have something to say.</p>
+    </section>
+
+    <section id="game" class="screen centered" hidden aria-labelledby="game-title">
+      <div class="star-mark" aria-hidden="true">✧</div>
+      <p class="eyebrow">A LITTLE COSMIC CURIOSITY</p>
+      <h1 id="game-title" tabindex="-1">Written in<br>the <em>stars?</em></h1>
+      <p class="lede">Let’s find the first initial of your soulmate’s name.<br>Start with your first initial below.</p>
+      <form id="initial-form" novalidate>
+        <label for="initial">YOUR FIRST INITIAL</label>
+        <div class="input-row"><input id="initial" name="initial" placeholder="B" type="text" autocomplete="off" autocapitalize="characters" maxlength="40" aria-describedby="input-help input-error" required><button class="button primary" type="submit">Ask the stars <span aria-hidden="true">✧</span></button></div>
+        <p id="input-error" class="error" aria-live="polite"></p>
+        <p id="input-help" class="hint">Just a playful little bit of magic.</p>
+      </form>
+    </section>
+
+    <section id="finale" class="screen moon-screen" hidden aria-labelledby="finale-title">
+      <div id="stars" class="stars" aria-hidden="true"></div>
+      <div class="moon-wrap" aria-hidden="true"><div class="moon-halo"></div><div class="moon"><i></i><i></i><i></i><i></i><i></i></div><div class="moon-orbit"></div></div>
+      <div class="moon-copy"><p class="eyebrow">THE STARS HAVE A LITTLE SECRET</p><h1 id="finale-title" tabindex="-1">Your soulmate’s initial is <span id="result-initial">N</span></h1><p id="romantic-quote" class="romantic-quote"></p><p class="moon-footnote">And maybe our story starts with that one little yes.</p><button id="again" type="button" class="text-button">Read the stars again <span aria-hidden="true">↗</span></button><span class="cosmic-note">a little game, a very real smile.</span></div>
+    </section>
+  </main>
+  <footer><span>MADE WITH A LITTLE NERVOUSNESS & A LOT OF ♡</span><div class="progress" aria-label="Step 1 of 4"><i class="active"></i><i></i><i></i><i></i></div><span>GOOD THINGS START WITH A HELLO.</span></footer>
+  <div id="confetti" aria-hidden="true"></div>
+  <script src="app.js"></script>
+</body>
+</html>

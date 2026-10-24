@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: a-little-question-for-you
+    runtime: static
+    buildCommand: "echo Ready to serve"
+    staticPublishPath: ./dist
+    autoDeployTrigger: commit
