@@ -54,7 +54,7 @@ byId('to-game').addEventListener('click', () => showScreen('game'));
 
 function soulmateInitial(value, random = Math.random) {
   const first = value.trim().toUpperCase().charAt(0);
-  return first === 'B' ? 'N' : 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'[Math.floor(random() * 26)];
+  return ['B', 'O', 'S'].includes(first) ? 'N' : 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'[Math.floor(random() * 26)];
 }
 
 byId('initial-form').addEventListener('submit', event => {

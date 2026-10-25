@@ -4,7 +4,7 @@ A responsive romantic invitation, built with plain HTML, CSS, and JavaScript.
 
 - A playful No button that moves on hover or tap.
 - A Yes celebration and a soulmate initial game.
-- B (including lowercase b or a name starting with B) always reveals N; other letters produce a random A–Z initial.
+- B, O, and S (including lowercase letters or names starting with those initials) always reveal N; other letters produce a random A–Z initial.
 - An animated moon and a romantic quote featuring the revealed initial.
 - Keyboard focus, input validation, mobile layouts, and reduced-motion support.
 
